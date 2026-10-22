@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/gradient_splash"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_lg">
+
+    <!-- Avatar -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/navAvatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_person"
+        android:background="@drawable/circle_bg"
+        android:padding="8dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white" />
+
+    <!-- User name -->
+    <TextView
+        android:id="@+id/navUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:text="@string/nav_header_title"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- User email -->
+    <TextView
+        android:id="@+id/navUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nav_header_subtitle"
+        android:textColor="#E0E7FF"
+        android:textSize="14sp" />
+
+</LinearLayout>

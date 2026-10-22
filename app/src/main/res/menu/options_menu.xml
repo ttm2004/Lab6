@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Search (uses SearchView in the ActionBar) -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <!-- Sort submenu -->
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/menu_sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sort_date"
+                android:title="@string/menu_sort_date" />
+            <item
+                android:id="@+id/sort_name"
+                android:title="@string/menu_sort_name" />
+            <item
+                android:id="@+id/sort_favorite"
+                android:title="@string/menu_sort_favorite" />
+        </menu>
+    </item>
+
+    <!-- Filter submenu -->
+    <item
+        android:id="@+id/action_filter"
+        android:title="@string/menu_filter"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/filter_all"
+                android:title="@string/menu_filter_all"
+                android:checkable="true"
+                android:checked="true" />
+            <item
+                android:id="@+id/filter_nature"
+                android:title="@string/menu_filter_nature"
+                android:checkable="true" />
+            <item
+                android:id="@+id/filter_urban"
+                android:title="@string/menu_filter_urban"
+                android:checkable="true" />
+        </menu>
+    </item>
+
+    <!-- View toggle submenu (grid vs list) -->
+    <item
+        android:id="@+id/action_view"
+        android:title="@string/menu_view"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/view_grid"
+                android:title="@string/menu_view_grid"
+                android:checkable="true"
+                android:checked="true" />
+            <item
+                android:id="@+id/view_list"
+                android:title="@string/menu_view_list"
+                android:checkable="true" />
+        </menu>
+    </item>
+
+    <!-- Settings (overflow) -->
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menu_settings"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ctx_view"
+        android:title="@string/ctx_view"
+        android:icon="@drawable/ic_camera" />
+
+    <item
+        android:id="@+id/ctx_share"
+        android:title="@string/ctx_share"
+        android:icon="@drawable/ic_share" />
+
+    <item
+        android:id="@+id/ctx_favorite"
+        android:title="@string/ctx_favorite" />
+
+    <item
+        android:id="@+id/ctx_wallpaper"
+        android:title="@string/ctx_wallpaper" />
+
+    <item
+        android:id="@+id/ctx_delete"
+        android:title="@string/ctx_delete"
+        android:icon="@drawable/ic_delete" />
+
+</menu>

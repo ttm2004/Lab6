@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Quản Lý Ảnh</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Ảnh của bạn, được tổ chức đẹp mắt</string>
+
+    <!-- Đăng nhập -->
+    <string name="login_title">Chào Mừng Trở Lại</string>
+    <string name="login_subtitle">Đăng nhập để quản lý ảnh của bạn</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">Đăng Nhập</string>
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="btn_register_here">Đăng ký ngay</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="login_success">Đăng nhập thành công</string>
+    <string name="login_failed">Đăng nhập thất bại: %1$s</string>
+
+    <!-- Đăng ký -->
+    <string name="register_title">Tạo Tài Khoản</string>
+    <string name="register_subtitle">Tham gia và bắt đầu lưu trữ ảnh</string>
+    <string name="hint_name">Họ và tên</string>
+    <string name="hint_confirm_password">Xác nhận mật khẩu</string>
+    <string name="btn_register">Đăng Ký</string>
+    <string name="have_account">Đã có tài khoản?</string>
+    <string name="btn_login_here">Đăng nhập tại đây</string>
+    <string name="register_success">Đăng ký thành công</string>
+    <string name="register_failed">Đăng ký thất bại: %1$s</string>
+
+    <!-- Kiểm tra đầu vào -->
+    <string name="err_empty_email">Vui lòng nhập email</string>
+    <string name="err_invalid_email">Email không hợp lệ</string>
+    <string name="err_empty_password">Vui lòng nhập mật khẩu</string>
+    <string name="err_short_password">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="err_empty_name">Vui lòng nhập họ tên</string>
+    <string name="err_password_mismatch">Mật khẩu không khớp</string>
+    <string name="err_empty_confirm">Vui lòng xác nhận mật khẩu</string>
+
+    <!-- Màn hình chính / Thư viện -->
+    <string name="gallery_title">Thư Viện Ảnh</string>
+    <string name="favorites_title">Ảnh Yêu Thích</string>
+    <string name="empty_gallery">Chưa có ảnh nào.\nNhấn + để thêm ảnh đầu tiên</string>
+    <string name="empty_favorites">Chưa có ảnh yêu thích</string>
+    <string name="search_hint">Tìm kiếm ảnh…</string>
+
+    <!-- Options Menu -->
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="menu_sort">Sắp xếp</string>
+    <string name="menu_sort_date">Theo ngày</string>
+    <string name="menu_sort_name">Theo tên</string>
+    <string name="menu_sort_favorite">Yêu thích trước</string>
+    <string name="menu_filter">Lọc</string>
+    <string name="menu_filter_all">Tất cả</string>
+    <string name="menu_filter_nature">Thiên nhiên</string>
+    <string name="menu_filter_urban">Đô thị</string>
+    <string name="menu_view">Chế độ xem</string>
+    <string name="menu_view_grid">Dạng lưới</string>
+    <string name="menu_view_list">Dạng danh sách</string>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_add_photo">Thêm ảnh</string>
+
+    <!-- Context Menu -->
+    <string name="ctx_view">Xem ảnh</string>
+    <string name="ctx_share">Chia sẻ</string>
+    <string name="ctx_favorite">Thêm vào yêu thích</string>
+    <string name="ctx_unfavorite">Bỏ yêu thích</string>
+    <string name="ctx_delete">Xóa ảnh</string>
+    <string name="ctx_wallpaper">Đặt làm hình nền</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_favorites">Yêu thích</string>
+    <string name="nav_profile">Hồ sơ</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="nav_logout">Đăng xuất</string>
+    <string name="nav_open">Mở menu</string>
+    <string name="nav_close">Đóng menu</string>
+    <string name="nav_header_title">Quản Lý Ảnh</string>
+    <string name="nav_header_subtitle">Lưu giữ kỷ niệm của bạn</string>
+
+    <!-- Hồ sơ -->
+    <string name="profile_title">Hồ Sơ Cá Nhân</string>
+    <string name="profile_total_photos">Tổng ảnh</string>
+    <string name="profile_favorites">Yêu thích</string>
+    <string name="profile_member_since">Năm tham gia</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_name">Tên hiển thị</string>
+    <string name="profile_uid">Mã người dùng</string>
+    <string name="btn_edit_profile">Chỉnh sửa hồ sơ</string>
+    <string name="btn_logout">Đăng Xuất</string>
+    <string name="btn_back">Quay lại</string>
+
+    <!-- Thêm ảnh -->
+    <string name="add_photo_title">Thêm Ảnh Mới</string>
+    <string name="hint_photo_title">Tiêu đề ảnh</string>
+    <string name="hint_photo_desc">Mô tả (không bắt buộc)</string>
+    <string name="hint_photo_url">Đường dẫn ảnh (URL)</string>
+    <string name="btn_add_photo">Thêm Ảnh</string>
+    <string name="btn_pick_gallery">Chọn từ thư viện</string>
+    <string name="photo_added">Thêm ảnh thành công</string>
+
+    <!-- Chi tiết ảnh -->
+    <string name="detail_share">Chia sẻ</string>
+    <string name="detail_delete">Xóa</string>
+    <string name="detail_favorite">Yêu thích</string>
+    <string name="confirm_delete">Bạn có chắc muốn xóa ảnh này không?</string>
+    <string name="confirm_delete_title">Xóa ảnh</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="photo_deleted">Đã xóa ảnh</string>
+    <string name="added_to_favorites">Đã thêm vào yêu thích</string>
+    <string name="removed_from_favorites">Đã bỏ khỏi yêu thích</string>
+    <string name="undo">Hoàn tác</string>
+
+    <!-- Khác -->
+    <string name="loading">Đang xử lý…</string>
+    <string name="password_reset_sent">Đã gửi email đặt lại mật khẩu</string>
+    <string name="logout_success">Đã đăng xuất</string>
+    <string name="category_label">Danh mục:</string>
+    <string name="hint_photo_category">Danh mục</string>
+</resources>
